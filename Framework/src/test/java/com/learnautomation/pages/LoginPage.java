@@ -57,7 +57,7 @@ public LoginPage(WebDriver ldriver)
 		//Switch to the opened tab
 		//driver.switchTo().window(actual);
 	//driver.navigate().refresh();
-//Thread.sleep(1000);
+Thread.sleep(1000);
 		System.out.println(driver.getCurrentUrl());
 		//ArrayList<String1> tabloc1=new ArrayList<String1>();
 		
